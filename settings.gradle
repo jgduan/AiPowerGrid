@@ -1,0 +1,4 @@
+include ':component-ble'
+include ':base'
+include ':app'
+rootProject.name = "AiPowerGrid"

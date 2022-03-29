@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jhsong.component_ble">
+
+    <!-- 蓝牙权限 start -->
+    <!-- 实现蓝牙通信 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!-- 初始化device discovery或者管理蓝牙设置(Bluetooth settings) -->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!--安卓6.0以上，想扫描蓝牙设备需要此权限，并且需要开启GPS-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 蓝牙权限 end -->
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+</manifest>

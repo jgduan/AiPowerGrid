@@ -1,0 +1,22 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowActionBar">false</item>
+        <!-- Appbar背景色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--状态栏颜色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--控制各个控件被选中时的颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Text30">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/title_text_color</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+</resources>
